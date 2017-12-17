@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/libs/reset.css" />
+    <link rel="stylesheet" href="src/css/libs/bulma.css" />
+    <link rel="stylesheet" href="src/css/kantinator.css" />
+
+
+    <title>Kantinator - Zutaten eingeben</title>
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="./src/img/logo.png" alt="Logo">
+                </a>
+                <span class="navbar-burger burger">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </span>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <ul class="navbar-end">
+                    <li class="navbar-item is-active">
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="section is-gray">
+        <ul class="steps is-narrow is-medium is-centered has-content-centered">
+            <li class="steps-segment">
+              <span class="steps-marker">
+                <span class="icon">
+                  <i class="fas fa-users"></i>
+                </span>
+              </span>
+                <span class="steps-content">
+                  <p class="heading">Anzahl Personen wählen</p>
+              </span>
+            </li>
+            <li class="steps-segment">
+              <span class="steps-marker">
+                <span class="icon">
+                  <i class="far fa-calendar-alt"></i>
+                </span>
+              </span>
+                <span class="steps-content">
+                  <p class="heading">Anzahl Tage wählen</p>
+              </span>
+            </li>
+            <li class="steps-segment has-gaps is-active">
+              <span class="steps-marker">
+                <span class="icon">
+                    <i class="fas fa-list-ul"></i>
+                </span>
+              </span>
+                <span class="steps-content">
+                    <p class="heading">Vorhandene Zutaten eingeben</p>
+                </span>
+            </li>
+            <li class="steps-segment">
+              <span class="steps-marker is-hollow">
+                <span class="icon">
+                    <i class="fas fa-check"></i>
+                </span>
+              </span>
+                <span class="steps-content">
+                  <p class="heading">Wochen-/Essensplan erstellt</p>
+              </span>
+            </li>
+        </ul>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Vorhandene Zutaten eingeben</h1>
+            <hr />
+            <form action="" method="post">
+                <table class="table is-bordered is-striped is-hoverable">
+                    <tr>
+                        <th>Zutat</th>
+                        <th>Menge</th>
+                        <th>Masseinheit</th>
+                    </tr>
+                    <tr>
+                        <td>Salat</td>
+                        <td>
+                            500
+                        </td>
+                        <td>
+                            Gramm
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mehl</td>
+                        <td>
+                            500
+                        </td>
+                        <td>
+                            Gramm
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Poulet Brust</td>
+                        <td>
+                          500
+                        </td>
+                        <td>
+                            Gramm
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Milch</td>
+                        <td>
+                          1
+                        </td>
+                        <td>
+                            Liter
+                        </td>
+                    </tr>
+                </table>
+                <a href="zutaten-hinzufuegen.html" class="button block">
+                    <span class="icon is-small">
+                        <i class="far fa-plus-square"></i>
+                    </span>
+                    <span>
+                        Zutat hinzufügen
+                    </span>
+                </a>
+                <div class="field is-grouped">
+                    <div class="control">
+                        <a href="index.html" class="button is-light">Cancel</a>
+                    </div>
+                    <div class="control">
+                        <a href="wochenplan-erstellt.html" class="button is-danger">Weiter</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Kantinator</strong> von Dario Di Fazio, Justin Anderwert, Leandro Tollardo, David Bissegger.
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

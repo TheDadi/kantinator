@@ -1,0 +1,66 @@
+body {
+    background-color: #8c1515;
+}
+
+main {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    padding: 30px 15px 50px 15px;
+}
+
+header {
+    background-image: url('../img/header.JPG');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: auto 100%;
+    height: 200px;
+    width: 100%;
+}
+
+#table-persons {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table-persons td {
+    padding: 5px 10px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.content {
+    margin: 20px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.disabled {
+    color: #bbbcbf;
+}
+
+.btn-sky {
+    background-color: #6e99dd;
+    border-radius: 5px;
+    color: #FFF;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+#generate-table {
+    float: right;
+}
+
+a, button {
+    display: inline-block;
+}
+
+a:hover, a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}

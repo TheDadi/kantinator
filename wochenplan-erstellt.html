@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/libs/reset.css" />
+    <link rel="stylesheet" href="src/css/libs/bulma.css" />
+    <link rel="stylesheet" href="src/css/kantinator.css" />
+
+    <title>Kantinator - Wochenplan erstellt</title>
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="./src/img/logo.png" alt="Logo">
+                </a>
+                <span class="navbar-burger burger">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </span>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <ul class="navbar-end">
+                    <li class="navbar-item is-active">
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="section is-gray">
+        <ul class="steps is-narrow is-medium is-centered has-content-centered">
+            <li class="steps-segment">
+              <span class="steps-marker">
+                <span class="icon">
+                  <i class="fas fa-users"></i>
+                </span>
+              </span>
+                <div class="steps-content">
+                    <p class="heading">Anzahl Personen wählen</p>
+                </div>
+            </li>
+            <li class="steps-segment">
+              <span class="steps-marker">
+                <span class="icon">
+                  <i class="far fa-calendar-alt"></i>
+                </span>
+              </span>
+                <div class="steps-content">
+                    <p class="heading">Anzahl Tage wählen</p>
+                </div>
+            </li>
+            <li class="steps-segment has-gaps">
+              <span class="steps-marker">
+                <span class="icon">
+                    <i class="fas fa-list-ul"></i>
+                </span>
+              </span>
+                <div class="steps-content">
+                    <p class="heading">Vorhandene Zutaten eingeben</p>
+                </div>
+            </li>
+            <li class="steps-segment is-active">
+              <span class="steps-marker is-hollow">
+                <span class="icon">
+                    <i class="fas fa-check"></i>
+                </span>
+              </span>
+                <div class="steps-content">
+                    <p class="heading">Wochen-/Essensplan erstellt</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Menüplan</h1>
+            <hr />
+            <ul class="day-list">
+                <li class="day-list_day">
+                    <h3 class="day-list__heading">Tag 1</h3>
+                    <hr />
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-64x64">
+                                    <img src="src/img/schaschlik-topf.jpg" alt="Schaschliktopf">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <strong>Schaschliktopf</strong>
+                                        <small>20 Minuten</small>
+                                        <br>
+                                        Alle Zutaten in große Stücke schneiden. Zwiebeln und Speck in einem großen
+                                        Bräter ordentlich anbraten. Zwiebeln und Speck auf den...
+                                    </p>
+                                    <button class="day-list__button button is-danger">Details ansehen</button>
+                                </div>
+                                <nav class="level is-mobile">
+                                    <div class="level-left">
+                                        <a class="level-item">
+                                            <span class="icon is-small"><i class="fa fa-reply"></i></span>
+                                        </a>
+                                        <a class="level-item">
+                                            <span class="icon is-small"><i class="fa fa-retweet"></i></span>
+                                        </a>
+                                        <a class="level-item">
+                                            <span class="icon is-small"><i class="fa fa-heart"></i></span>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </div>
+                        </article>
+                    </div>
+                </li>
+
+                <li class="day-list_day">
+                    <h3 class="day-list__heading">Tag 2</h3>
+                    <hr />
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-64x64">
+                                    <img src="src/img/pesto-tomaten-pasta.jpg" alt="Pesto Tomaten Pasta">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <strong>Pasta in leckerer Pesto-Tomatensoße</strong>
+                                        <small>15 Minuten</small>
+                                        <br>
+                                        Für die Soße die Zwiebeln in Würfel schneiden. Olivenöl in einer Pfanne
+                                        erhitzen, Zwiebelwürfel und Rohschinken-Würfel anbraten. Feta in grobe Würfel
+                                        schneiden und mit in die Pfanne geben. Sobald der Feta zu schmelzen beginnt, die
+                                        Dose geschälte Tomaten mit in die Pfanne geben. Tomaten zerdrücken und die Soße
+                                        ein paar Minuten erhitzen. Dann Hitze abschalten und das Glas Pesto alla
+                                        Calabrese in die Soße rühren.
+                                    </p>
+                                    <button class="day-list__button button is-danger">Details ansehen</button>
+                                </div>
+                                <nav class="level is-mobile">
+                                    <div class="level-left">
+                                        <a class="level-item">
+                                            <span class="icon is-small"><i class="fa fa-reply"></i></span>
+                                        </a>
+                                        <a class="level-item">
+                                            <span class="icon is-small"><i class="fa fa-retweet"></i></span>
+                                        </a>
+                                        <a class="level-item">
+                                            <span class="icon is-small"><i class="fa fa-heart"></i></span>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </div>
+                        </article>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Kantinator</strong> von Dario Di Fazio, Justin Anderwert, Leandro Tollardo, David Bissegger.
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

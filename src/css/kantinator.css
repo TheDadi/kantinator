@@ -1,0 +1,42 @@
+@import "libs/reset.css";
+@import "libs/font-awesome.css";
+@import "libs/bulma.css";
+@import "libs/bulma-steps.css";
+@import "bulma-overrides.css";
+
+.table {
+    width: 100%;
+}
+
+.steps {
+    margin-top: 1rem;
+}
+
+.step__icon {
+    margin-bottom: 1rem;
+}
+
+.step__name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.day-list {
+    margin: 1rem 0;
+}
+
+.day-list_day {
+    margin-bottom: 1rem;
+}
+
+.day-list_day:last-child {
+    margin-bottom: 0;
+}
+
+.day-list__heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
